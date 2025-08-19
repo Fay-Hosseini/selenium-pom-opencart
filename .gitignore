@@ -1,0 +1,14 @@
+# Python virtual environment
+.venv/
+
+# Allure reports and temporary files
+allure-results/
+.pytest_cache/
+__pycache__/
+
+# IDE files
+.idea/
+.vscode/
+
+# Web driver files
+*.exe
