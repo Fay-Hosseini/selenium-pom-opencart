@@ -11,6 +11,7 @@ def test_register_new_account(driver):
         reg_page.open_registration()
 
         unique_email = f"testuser_{int(time.time())}@example.com"
+        print(f"\nRegistering with email: {unique_email}")
 
         reg_page.register_account(
             fname="John",
